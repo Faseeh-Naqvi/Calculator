@@ -4,11 +4,22 @@
     background-color: #ff5733; /* Set the background color */
     border: 2px solid #e74c3c; /* Add a border (optional) */
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */ 
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
 }
 
-#body{
- position: absolute;
- top: 50%;
- right:50%;
- transform: translate(-50%,-50%);
+body {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Make sure the body takes the full viewport height */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+#calcBody{
+    
 }
